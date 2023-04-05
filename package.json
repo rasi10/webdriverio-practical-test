@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js --spec test/specs/example.e2e.js && allure generate allure-results",
+    "test": "npx wdio run ./wdio.conf.js && allure generate allure-results",
     "test2": "pwd",
     "wdio": "wdio run ./wdio.conf.js"
   },
