@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wdio/cli": "^8.6.9",
-    "wdio-mochawesome-reporter": "^2.0.1"
+    "@wdio/cli": "^8.6.9"    
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^8.7.0",
