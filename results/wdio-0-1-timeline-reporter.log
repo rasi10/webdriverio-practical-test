@@ -1,0 +1,74 @@
+{
+  "start": "2023-04-07T11:13:37.737Z",
+  "end": "2023-04-07T11:13:42.552Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "112.0.5615.49",
+    "chrome": {
+      "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
+      "userDataDir": "/tmp/.com.google.Chrome.XyNebh"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:40439"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "fcb581f1b70b035fb95d2b2a9f55ef42"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "https://www.volvocars.com/intl/v/car-safety/a-million-more",
+  "framework": "mocha",
+  "duration": 4815,
+  "suites": [
+    {
+      "title": "Test suite Menu link",
+      "duration": 4735,
+      "start": "2023-04-07T11:13:37.747Z",
+      "end": "2023-04-07T11:13:42.482Z",
+      "tests": [
+        {
+          "title": "Should test that the links on link Menu exist",
+          "start": "2023-04-07T11:13:37.747Z",
+          "end": "2023-04-07T11:13:42.482Z",
+          "duration": 4735,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2023-04-07T11:13:37.747Z",
+          "end": "2023-04-07T11:13:41.291Z",
+          "duration": 3544,
+          "title": "\"before each\" hook for Test suite Menu link",
+          "associatedSuite": "Test suite Menu link"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "file:///home/rafael/Desktop/webdriverio-test/example1/test/specs/navigation.e2e.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
